@@ -2049,7 +2049,7 @@ button.swiper-pagination-bullet {
   padding: 20px 0;
 }
 
-.header__menu > li > li:hover .header__submenu {
+.header__menu > li:hover .header__submenu {
   display: block;
 }
 
@@ -2097,7 +2097,7 @@ button.swiper-pagination-bullet {
 .header__submenu {
   display: none;
   position: absolute;
-  z-index: 5;
+  z-index: 10;
   background: #2d3436;
   padding: 20px 30px;
   top: 50px;
@@ -2598,10 +2598,6 @@ button.swiper-pagination-bullet {
 }
 
 @media (max-width: 1250px) {
-  .header__menu {
-    gap: 16px;
-  }
-
   .header__link::after {
     display: none;
   }
@@ -2760,12 +2756,6 @@ button.swiper-pagination-bullet {
   }
 }
 
-@media (max-width: 550px) {
-  .header__menu {
-    gap: 10px;
-  }
-}
-
 @media (max-width: 500px) {
   .clips__item {
     margin: 0px 0px 10px 0px;
@@ -2785,10 +2775,6 @@ button.swiper-pagination-bullet {
 }
 
 @media (max-width: 479.98px) {
-  .header__menu {
-    display: none;
-  }
-
   .icon-menu {
     display: block;
     position: absolute;
